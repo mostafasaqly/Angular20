@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { UserProfile } from "./Components/user-profile/user-profile";
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [UserProfile],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
