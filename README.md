@@ -86,7 +86,7 @@ Folder:
 
 ---
 
-## 7. Routing (Updated) -- Soon
+## 7. Routing (Updated) 
 # Angular Routing Demo (v21)
 
 This folder contains a **complete routing playground** that follows the official
