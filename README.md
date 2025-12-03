@@ -98,6 +98,102 @@ students can open the app and *see* every routing feature working, then open the
 corresponding file and compare it with the documentation.
 
 ---
+1️⃣ Getting Started – Routing Overview
+
+appStart.ts (or main.ts)
+
+app.routes.ts
+
+home.ts
+
+2️⃣ Basic Navigation – Navigate to Routes
+
+home.ts
+
+products.ts
+
+users.ts
+
+3️⃣ Route Params, Query Params & Route State
+
+usersDetails.ts
+
+route-state-demo.ts
+
+4️⃣ Redirecting Routes
+
+app.routes.ts
+(redirect section)
+
+5️⃣ Guards – Controlling Route Access
+
+auth.service.ts
+
+auth.guard.ts
+
+app.routes.ts
+(the /users/:id route)
+
+6️⃣ Resolvers – Route Data Resolvers
+
+fake-user.service.ts
+
+app.routes.ts
+(resolver definition)
+
+usersDetails.ts
+
+7️⃣ Child Routes – Admin Area
+
+admin-layout.ts
+
+adminDashboard.ts
+
+adminSettings.ts or guards-demo-form.ts
+
+app.routes.ts
+(the /admin route with children)
+
+8️⃣ CanDeactivate – Prevent Leaving with Unsaved Changes
+
+guards-demo-form.ts
+
+app.routes.ts
+(pendingChangesGuard section)
+
+9️⃣ Named Outlets – Popup Help Panel
+
+popup-help.ts
+
+app.routes.ts
+(route with outlet: 'popup')
+
+appStart.ts
+(<router-outlet name="popup">)
+
+🔟 Custom Route Matches
+
+custom-match-profile.ts
+
+app.routes.ts
+(twitterHandleMatcher)
+
+1️⃣1️⃣ Rendering, Behavior, Animations & Router Events
+
+appStart.ts or main.ts
+
+withInMemoryScrolling
+
+withPreloading
+
+withRouterConfig
+
+withViewTransitions
+
+withNavigationErrorHandler
+
+router-logger.service.ts
+---
 
 ## Tech stack
 
