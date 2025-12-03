@@ -87,15 +87,39 @@ Folder:
 ---
 
 ## 7. Routing (Updated) -- Soon
-New routing patterns introduced in Angular 21.
+# Angular Routing Demo (v21)
 
-- Standalone routing  
-- Route providers  
-- Lazy loading  
-- Route guards  
+This folder contains a **complete routing playground** that follows the official
+[`angular.dev/guide/routing`](https://angular.dev/guide/routing) topics and shows
+them all in a single demo app.
 
-(If you add routing demos, place them in:  
-`/src/app/Routing`)
+The goal is to use it in teaching / live sessions:
+students can open the app and *see* every routing feature working, then open the
+corresponding file and compare it with the documentation.
+
+---
+
+## Tech stack
+
+- **Angular v21** (standalone APIs)
+- **Router v21** with:
+  - `provideRouter(...)`
+  - `withComponentInputBinding`
+  - `withInMemoryScrolling`
+  - `withPreloading(PreloadAllModules)`
+  - `withRouterConfig`
+  - `withViewTransitions`
+
+---
+
+## How to run
+
+```bash
+npm install
+ng serve
+ng test
+# open http://localhost:4200
+
 
 ---
 
